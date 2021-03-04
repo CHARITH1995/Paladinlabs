@@ -46,7 +46,7 @@ const Homepage = () => {
   return (
     <div>
       <div className="container">
-          <h2 className = "center">Job List</h2>
+          <p/>
           <Button title = "Shuffle" onClick = {Shuffle} color="primary" size="lg" block >Shuffle</Button>
           <p/>
           <JobList jobList={jobList} />
